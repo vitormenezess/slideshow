@@ -18,12 +18,14 @@
   width: 30vw;
   height: 40vh;
   border-radius: 10px;
-  background-color: red;
-  transition: all 2s;
+  overflow: hidden;
+  
+  
 }
 .item {
   width: 30vw;
   height: 40vh;
+  transition: all 1s;
 }
 .item:first-child{
     margin-left: -100%;
